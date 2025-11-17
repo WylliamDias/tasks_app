@@ -37,15 +37,11 @@
   border: 1.5px solid #fff;
   cursor: pointer;
   transition: all 0.4s;
-  display: flex;
-  width: 6rem;
-  height: 2.4rem;
-  justify-content: center;
-  align-items: center;
+  padding: 8px 24px;
+  width: fit-content;
 }
 
 .loginButton:hover {
-  font-weight: bold;
   transform: scale(1.08);
   background-color: #fff;
   color: #0f0f0f;
