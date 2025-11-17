@@ -14,9 +14,11 @@ export function Header() {
               Tarefas<span>+</span>
             </h1>
           </Link>
-          <Link className={styles.link} href={'/dashboard'}>
-            Meu painel
-          </Link>
+          {session?.user &&
+            <Link className={styles.link} href={'/dashboard'}>
+              Meu painel
+            </Link>
+          }
         </nav>
         {
           (() => {
